@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página web</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <h1>Bienvenidos a mi página web</h1>
+  <p>Esta es mi página web, donde podréis encontrar información sobre mí y mis proyectos.</p>
+  <ul>
+    <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <h2 id="acerca-de-mi">Acerca de mí</h2>
+  <p>Soy un desarrollador de software con experiencia en diversos lenguajes de programación y plataformas.</p>
+  <h2 id="proyectos">Proyectos</h2>
+  <p>Aquí encontraréis algunos de mis proyectos más destacados:</p>
+  <ul>
+    <li>Aplicación móvil para seguimiento de entrenamientos</li>
+    <li>Sitio web para reserva de alojamientos turísticos</li>
+    <li>Juego educativo en línea para aprendizaje de idiomas</li>
+  </ul>
+  <h2 id="contacto">Contacto</h2>
+  <p>Si queréis poneros en contacto conmigo, podéis enviarme un correo electrónico a <a href="mailto:mi-correo@ejemplo.com">mi-correo@ejemplo.com</a> o usar el formulario de contacto a continuación:</p>
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br>
+    <input type="submit" value="Enviar">
+  </form> 
+</body>
+</html>
